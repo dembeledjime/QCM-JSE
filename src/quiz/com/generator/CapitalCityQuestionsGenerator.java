@@ -33,7 +33,7 @@ public class CapitalCityQuestionsGenerator extends QuestionsGenerator {
 
 			countries.remove(randomKey); 
 			
-			String questionText = String.format("what is the capital of this country: %s?", country);
+			String questionText = String.format("Quelle est la capitlae de: %s?", country);
 			questions.add(new Questions(questionText, capitale));
 
 		}

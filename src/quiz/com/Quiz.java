@@ -26,9 +26,9 @@ abstract public class Quiz {
 
 				if (userAnswer.equalsIgnoreCase(questions.getResponse())) {
 					score++;
-					displayMessage("Good answer! ");
+					displayMessage("Bonne reponse! ");
 				} else {
-					displayMessage("Oops!. Bad answer! \n The correct response was " + questions.getResponse());
+					displayMessage("Oops!. Mauvaise reponse! \n La bonne reponse était " + questions.getResponse());
 
 				}
 			}
